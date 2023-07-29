@@ -1,0 +1,245 @@
+body{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Sevillana', cursive !important;
+    background-color: rgb(232, 255, 253) !important;
+    overflow-x: hidden;
+}
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&display=swap');
+
+button{
+    font-weight: bolder !important;
+}
+
+/* NAV-BAR */
+#navbar{
+    padding: 5px;
+    background-color:  #e3f2fd !important;
+    font-family: 'Sevillana', cursive;
+    font-weight: bolder;
+    font-size: 24px;
+}
+
+#nav-logo{
+    height: 70px;
+    width: 150px;
+}
+.nav-item a{  
+    padding: 0px 20px !important;
+    color: rgb(19, 96, 239) ;
+}
+.nav-item a:hover{
+    color: coral !important;
+    cursor: pointer;
+}
+.nav-item span{
+    font-size: 40px;
+}
+.nav-link:hover {
+    padding: 0px 20px;
+    color: coral;
+    cursor: pointer;
+}
+.navbar-toggler{
+    color: rgb(5, 0, 0);
+}
+.navbar-toggler:hover{
+    background-color: cornflowerblue;
+}
+.container-fluid{
+    padding-left: 20px !important;
+}
+
+/* NAV-TAB */
+#nav-tab{
+    margin-top: 80px !important;
+    background-color: blanchedalmond;
+    padding: 5px 0px;
+    
+}
+#nav-tab a{
+    color: #28a745 !important;
+    font-weight: bold;
+}
+#nav-tab .dropdown button{
+    background-color: #28a745;
+    font-weight: bold;
+}
+
+/* HOME */
+#home{
+    background-image: url("img/bg0.jfif");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#home span{
+    color: cornflowerblue;
+}
+#home h1{
+    color: coral;
+}
+#home p{
+    font-weight: bold;
+}
+#home button{
+    font-weight: bold;
+}
+
+
+/* BAND */
+#brand img{
+    padding: 20px 10px ;
+    height: 150px;
+    border-radius: 30px !important;
+    box-shadow: 3px 3px rgb(81, 184, 240);
+}
+#brand div{
+    margin: 50px 5px !important;
+}
+
+/*TOP TRENDING */
+.td{
+    display: flex;
+    margin: 20px 0px !important;
+}
+.td img{
+    width: 100%;
+    height: 70vh;
+}
+#td-gif{
+    margin: 0px auto !important;
+    width: 100%;
+    height: 25vh;
+}
+.details{
+    position: absolute;
+    color: coral;
+    bottom: 20px ;
+    padding: 10px 15px;
+}
+.details button{
+    margin: 0px auto;
+}
+
+/* PRODUCTS */
+#products{
+    margin-bottom: 50px;
+}
+#products .container{
+    font-weight: bolder !important;
+    margin-top: 100px;
+}
+#products .container hr{
+    width: 80%;
+    height: 3px;
+    background-color: #007BFF;
+    border-radius: 10px;
+}
+#products .container-fluid hr{
+    width: 20%;
+    height: 3px;
+    background-color: black;
+    border-radius: 10px;
+    position: absolute;
+}
+.product{
+    width: auto;
+}
+.star{
+    color: gold;
+    margin: 10px;
+}
+.price{
+    font-weight: bold;
+}
+.name{
+    font-weight: bold;
+}
+.product button{
+    background-color: coral;
+    transform: translateY(25px);
+    opacity: 0;
+    transition: 0.3s all;
+}
+.product:hover button{
+    background-color: coral;
+    transform: translateY(0px);
+    opacity: 1;
+    transition: 0.3s all;
+    box-shadow: none;
+}
+.product img{
+    margin-top: 20px;
+    transition: 0.3 all;
+    height: 50vh;
+    width: 100%;
+}
+.product img:hover{
+    transition: 0.3s all;
+    opacity: 0.7;
+}
+
+/* BANNER */
+#banner{
+    background-image: url("img/bg2.jpg");
+    width: 100%;
+    height: 75vh;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+}
+#banner h2{
+    color: coral;
+}
+#banner h1{
+    color: aliceblue;
+}
+
+/* FOOTER */
+footer{
+    color: aliceblue;
+    margin: 0px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 82, 163, 0.7);
+}
+.footer img{
+    width: 100%;
+    margin: 10px 0px;
+}
+.footer li{
+    margin-top: 20px;
+    color: coral;
+}
+.footer a{
+    color: coral;
+}
+footer hr{
+    background-color:  coral !important;
+    width: 80%;
+}
+footer h5{
+    font-weight: bolder;
+}
+.tbl{
+    overflow-x: auto;
+}
+table,tr,td,th{
+    table-layout: fixed;
+    height: auto;
+    width: auto;
+    background-color: blanchedalmond;
+    border: 2px solid #28a745 !important;
+    padding: 10px;
+}
